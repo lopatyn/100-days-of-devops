@@ -11,6 +11,7 @@
 | День | Тема | Статус | Документація |
 |:---:|:---|:---:|:---|
 | 1 | Linux User Setup | ✅ | [Day 1 Summary](./days/day1) |
+| 2 | Temporary User Setup | ✅ | [Day 2 Summary](./days/day2) |
 | 11 | Apache Tomcat Configuration | ✅ | [Day 11 Summary](./days/day11) |
 | 12 | Linux Network Services | ✅ | [Day 12 Summary](./days/day12) |
 | 13 | IPtables & Network Security | ✅ | [Day 13 Summary](./days/day13) |
