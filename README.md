@@ -12,11 +12,14 @@
 |:---:|:---|:---:|:---|
 | 1 | Linux User Setup | ✅ | [Day 1 Summary](./days/day1) |
 | 2 | Temporary User Setup | ✅ | [Day 2 Summary](./days/day2) |
+| 3 | Secure Root SSH Access | ✅ | [Day 3 Summary](./days/day3) |
+| 4 | Script Execution Permissions | ✅ | [Day 4 Summary](./days/day4) |
+| 5 | SELinux Configuration | ✅ | [Day 5 Summary](./days/day5) |
+| 6 | Cron Job Automation | ✅ | [Day 6 Summary](./days/day6) |
 | 11 | Apache Tomcat Configuration | ✅ | [Day 11 Summary](./days/day11) |
 | 12 | Linux Network Services | ✅ | [Day 12 Summary](./days/day12) |
 | 13 | IPtables & Network Security | ✅ | [Day 13 Summary](./days/day13) |
 | 14 | Process Monitoring | 🏗️ | [In Progress] |
-
 ## 🛠️ Стек технологій
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
