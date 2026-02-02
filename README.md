@@ -22,8 +22,8 @@
 | 10 | Website Backup Script | ✅ | [Day 10 Summary](./days/day10) |
 | 11 | Apache Tomcat Configuration | ✅ | [Day 11 Summary](./days/day11) |
 | 12 | Linux Network Services | ✅ | [Day 12 Summary](./days/day12) |
-| 13 | IPtables & Network Security | ✅ | [Day 13 Summary](./days/day13) |
-| 14 | Process Monitoring | 🏗️ | [In Progress] |
+| 13 | IPtables Installation and Configuration | ✅ | [Day 13 Summary](./days/day13) |
+
 ## 🛠️ Стек технологій
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
