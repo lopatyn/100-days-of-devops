@@ -1,11 +1,12 @@
-# 🚀 100 Days of DevOps & Cloud Challenge
+# 🚀 100 Days of DevOps Challenge
 
-Привіт! Мене звати Роман. Я готуюся стати **Cloud Engineer** з фокусом на **Cybersecurity**. Це мій щоденний трекер навчання та практичних робіт.
+Привіт! Мене звати Роман. Це мій шлях трансформації у **Cloud & DevSecOps Engineer**. Тут я фіксую щоденну практику опанування фундаментальних інструментів автоматизації та безпеки.
 
-## 🎯 Цілі:
-- Опанувати Cloud Infrastructure (AWS/GCP/Azure).
-- Вивчити автоматизацію (Ansible, Terraform, Kubernetes).
-- Розвинути навички White Hat Hacking (DevSecOps).
+## 🎯 Основні напрямки:
+- **Linux Mastery:** Глибоке розуміння ядра, системного адміністрування та Hardening.
+- **Scripting & Automation:** Автоматизація рутинних завдань за допомогою Bash та Ansible.
+- **Networking & Security:** Налаштування мереж, фаєрволів (Iptables) та пошук вразливостей.
+- **Troubleshooting:** Вирішення реальних технічних проблем (MariaDB, Apache і т.д.).
 
 ## 📊 Прогрес
 | День | Тема | Статус | Документація |
@@ -24,10 +25,17 @@
 | 12 | Linux Network Services | ✅ | [Day 12 Summary](./days/day12) |
 | 13 | IPtables Installation and Configuration | ✅ | [Day 13 Summary](./days/day13) |
 
-## 🛠️ Стек технологій
+## 🛠️ Стек технологій (DevOps)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Security](https://img.shields.io/badge/CyberSecurity-red?style=for-the-badge&logo=kali-linux&logoColor=white)
 
+## 🤖 AI Mentor Support
+Мій Workflow підтримується кастомними AI-скілами для Gemini (Antigravity):
+- **DevOps Mentor:** Покроковий супровід та Security Challenges.
+- **Lab Generator:** Швидке створення структур лабораторних робіт.
+- **GitHub Chronicler:** Автоматизація документування професійних звітів.
+
 ---
-*Мій Workflow автоматизовано за допомогою Gemini (Antigravity).*
+🔗 **Також зацініть:** [100 Days of Cloud (AWS)](../100%20Days%20of%20Cloud%20(AWS)/README.md)

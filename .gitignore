@@ -1,2 +1,23 @@
+# 🔐 Security & Credentials
 .env
+*.pem
+*.pub
+.aws/
+
+# 🏗️ Infrastructure as Code (Terraform)
+terraform.tfstate*
+.terraform/
+*.tfvars
+
+# 🐍 Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 🖥️ IDE & OS Junk
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
 *.log
