@@ -85,4 +85,8 @@ curl localhost:5002
 *   **White Hat Challenge:** If an attacker finds `sendmail` running on a weird port, they might exploit its known SMTP relay vulnerabilities to bypass external spam filters.
 
 ---
+### 📚 Додаткові матеріали:
+*   [**Deep Dive: SELinux та порти**](./SELINUX_DEEP_DIVE.md) — чому зміна порту часто ламає сервіси "мовчаки".
+
+---
 🔗 **Previous:** [Day 13: IPtables Configuration](../day13)
