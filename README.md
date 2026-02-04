@@ -38,4 +38,4 @@
 - **GitHub Chronicler:** Автоматизація документування професійних звітів.
 
 ---
-🔗 **Також зацініть:** [100 Days of Cloud (AWS)](../100%20Days%20of%20Cloud%20(AWS)/README.md)
+🔗 **Також зацініть:** [100 Days of Cloud (AWS)](../[100%20Days%20of%20Cloud%20(AWS)/README.md](https://github.com/lopatyn/100-Days-Of-Cloud-AWS-/tree/main))
