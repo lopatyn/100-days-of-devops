@@ -92,6 +92,7 @@ sudo systemctl restart nginx
 3. **Configuration Hygiene:** Use separate directory blocks for SSL (`/etc/nginx/ssl`) and include them in specific site configs rather than bloating the main `nginx.conf`.
 4. **Validation:** Always use `nginx -t` before `systemctl restart`.
 5. **Self-Signed Limitations:** Know that self-signed certs are for internal use only; public-facing sites must use CAs like Let's Encrypt.
+6. **Expiry Awareness:** Understand that Nginx keeps certificates in memory; a restart/reload is required to pick up new files. [Read the Expiry Deep Dive](./SSL_EXPIRY_DEEP_DIVE.md).
 
 ---
 **Previous Day:** [Day 14: Linux Process Troubleshooting](../day14)
