@@ -25,6 +25,7 @@
 | 12 | Linux Network Services | ✅ | [Day 12 Summary](./days/day12) |
 | 13 | IPtables Installation and Configuration | ✅ | [Day 13 Summary](./days/day13) |
 | 14 | Linux Process Troubleshooting | ✅ | [Day 14 Summary](./days/day14) |
+| 15 | Setup SSL for Nginx | ✅ | [Day 15 Summary](./days/day15) |
 
 ## 🛠️ Стек технологій (DevOps)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
