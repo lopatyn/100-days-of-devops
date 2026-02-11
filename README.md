@@ -26,7 +26,8 @@
 | 13 | IPtables Installation and Configuration | ✅ | [Day 13 Summary](./days/day13) |
 | 14 | Linux Process Troubleshooting | ✅ | [Day 14 Summary](./days/day14) |
 | 15 | Setup SSL for Nginx | ✅ | [Day 15 Summary](./days/day15) |
-| 16 | Install and Configure Nginx as an LBR | ✅ | [Day 16 Summary](./days/day16) |
+| 16 | Nginx Load Balancer ⚖️ | ✅ | [Day 16 Summary](./days/day16) |
+| 17 | Configure PostgreSQL 🐘 | ✅ | [Day 17 Summary](./days/day17) |
 
 ## 🛠️ Стек технологій (DevOps)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
