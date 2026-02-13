@@ -28,6 +28,7 @@
 | 15 | Setup SSL for Nginx | ✅ | [Day 15 Summary](./days/day15) |
 | 16 | Nginx Load Balancer ⚖️ | ✅ | [Day 16 Summary](./days/day16) |
 | 17 | Configure PostgreSQL 🐘 | ✅ | [Day 17 Summary](./days/day17) |
+| 18 | LAMP Stack Deployment 🛠️ | ✅ | [Day 18 Summary](./days/day18) |
 
 ## 🛠️ Стек технологій (DevOps)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
