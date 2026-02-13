@@ -1,0 +1,46 @@
+graph TD
+    subgraph Client_Zone ["🌐 Client Access"]
+        User(["👤 End User"])
+    end
+
+    subgraph Networking_Layer ["🔌 Networking & Load Balancing"]
+        LB["⚖️ Load Balancer (stlb01)<br/>Port 80/443"]
+    end
+
+    subgraph Application_Layer ["🏙️ App Tier (Stratos DC)"]
+        direction TB
+        App1["💻 stapp01<br/>Apache (6300) | PHP"]
+        App2["💻 stapp02<br/>Apache (6300) | PHP"]
+        App3["💻 stapp03<br/>Apache (6300) | PHP"]
+        
+        Storage[("📂 Shared Storage (ststor01)<br/>/var/www/html (NFS)")]
+    end
+
+    subgraph Data_Layer ["🗄️ Database Tier"]
+        DB[("🐘 stdb01 (MariaDB)<br/>DB: kodekloud_db5")]
+    end
+
+    User -->|HTTP| LB
+    LB -->|Port 6300| App1
+    LB -->|Port 6300| App2
+    LB -->|Port 6300| App3
+    
+    App1 -.->|NFS Mount| Storage
+    App2 -.->|NFS Mount| Storage
+    App3 -.->|NFS Mount| Storage
+    
+    App1 ==>|MySQL:3306| DB
+    App2 ==>|MySQL:3306| DB
+    App3 ==>|MySQL:3306| DB
+
+    %% Styling - Enterprise Blueprint Theme
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,color:#333,font-family:monospace;
+    classDef tier fill:#e1f5fe,stroke:#01579b,stroke-width:2px,stroke-dasharray: 5 5,color:#01579b,font-weight:bold;
+    classDef server fill:#fff,stroke:#1a237e,stroke-width:2px;
+    classDef storage fill:#fff3e0,stroke:#e65100,stroke-width:2px;
+    classDef db fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
+
+    class Client_Zone,Networking_Layer,Application_Layer,Data_Layer tier;
+    class App1,App2,App3,LB server;
+    class Storage storage;
+    class DB db;
